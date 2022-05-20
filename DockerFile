@@ -1,9 +1,0 @@
-#ubuntu base image with my sql  installed
-
-FROM ubuntu
-
-MAINTAINER shravansonone <shravansonone1996@gmail.com>
-
-RUN apt-get update 
-
-CMD ["service sshd restart"]
